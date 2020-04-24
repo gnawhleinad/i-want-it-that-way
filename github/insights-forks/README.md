@@ -9,3 +9,16 @@ branch). This could give _insight_ to:
 - projects that could be notified for an important change
 
 [network-members]: network-members.png
+
+### ~workarounds
+
+- [`getForks.graphql`]
+- https://github.com/techgaun/active-forks
+
+[`getForks.graphql`]: getForks.graphql
+
+### :eyes:
+
+- [Getting the number of commits ahead/behind upstream via GraphQL]
+
+[Getting the number of commits ahead/behind upstream via GraphQL]: https://github.community/t5/GitHub-API-Development-and/Getting-the-number-of-commits-ahead-behind-upstream-via-GraphQL/td-p/20884

@@ -1,0 +1,18 @@
+query getForks($owner: String!, $name: String!, $first: Int!) {
+  repository(owner: $owner, name: $name) {
+    forks(first: $first, orderBy: {field: PUSHED_AT, direction: DESC}) {
+      nodes {
+        ...repo
+      }
+    }
+  }
+}
+
+fragment repo on Repository {
+  url
+  pushedAt
+  defaultBranchRef {
+    name
+  }
+}
+
